@@ -41,20 +41,24 @@ main {
 
 /*Footer styling*/
 
+footer ul {
+    text-align:center;
+}
+
 footer li {
     list-style-type: none;
     text-decoration: none;
-    float: right;
     padding: 15px;
-    text-decoration: none;
+    display: inline;
+    
 }
 
-footer a {
+footer i {
     color: #715072;
-    font-size: 1.25rem;
+    font-size: 2.5rem;
 }
 
-footer a:hover {
+footer i:hover {
     color: #715072;
 }
 
@@ -253,7 +257,7 @@ form p {
 }
 .awareness-content .awareness-header-list {
     list-style-type: none;
-    padding-left: 0;
+    padding: 0.5;
 }
 .awareness-content a {
     color:#402342;
@@ -265,10 +269,18 @@ form p {
     padding: 10px;
     margin: 20px 0;
     background-color: #eef0fa;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
 }
+
 .awareness-content h4 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+}
+
+.awareness-content p {
+    text-indent: 20px;
 }
 .awareness-title {
     font-size: 2.5rem;
@@ -285,6 +297,18 @@ form p {
     font-style: italic;
     color: grey;
 }
+
+.signSymptomsList {
+    list-style-type: none!important;
+    letter-spacing: 0.5px;
+    padding: 0.5%;
+}
+
+.awarenessNotices {
+    font-style: italic!important;
+    font-weight: bold;
+
+}
 .recipes-content {
     border-width: 2px;
     border-style: solid;
@@ -299,7 +323,7 @@ form p {
     font-size: 1.5rem;
 }
 .recipes-content .recipes .recipe-image {
-    width: 400px;
+    width: 100%;
     height: 400px;
     object-fit: cover;
 }
@@ -320,4 +344,21 @@ form p {
 }
 .recipe-image-wrapper {
     text-align: center
+}
+
+.link {
+    color: #00525d;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #00525d;
+    text-decoration: underline;
+}
+
+.recipes-content .recipes .recipe-detail-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
